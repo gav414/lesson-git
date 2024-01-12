@@ -3,3 +3,6 @@
 - 'git status' : tells us what we need to know about the repo and its state
 - 'git add <FILE>' : adds a file to the staging area
 - 'git commit' : opens a text editor to write a commit message
+- 'git commit -m': writes MESSAGE as a commit without a text editor
+- 'git log': shows the log of our commits
+- 'git log --oneline': shows shorter oneline commit
