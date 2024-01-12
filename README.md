@@ -6,3 +6,9 @@
 - 'git commit -m': writes MESSAGE as a commit without a text editor
 - 'git log': shows the log of our commits
 - 'git log --oneline': shows shorter oneline commit
+- 'git diff': compares current uncommited state to last known commited state
+
+- 'git diff --staged': runs git diff between theg area and last known state
+- 'git diff HEAD ~': compares HEAD with commit number ago (relative)
+- 'git diff HASH': compares HEAD with HASH
+
