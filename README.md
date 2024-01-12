@@ -12,3 +12,8 @@
 - 'git diff HEAD ~': compares HEAD with commit number ago (relative)
 - 'git diff HASH': compares HEAD with HASH
 
+- 'git restore --source (HASH or HEAD) (FILE)': restore file to HASH or HEAD
+- 'git checkout (HASH OR HEAD) (FILE)': restore file to HASH or HEAD
+- 'git checkout (HASH OR HEAD)': if you forget the file name, you end up in a detached HEAD state
+- 'git checkout main': go back to main
+- 'git switch main': go back to main
